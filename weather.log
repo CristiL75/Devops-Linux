@@ -1,0 +1,3 @@
+[ec2-user@ip-172-31-21-186 ~]$ tail /var/log/weather.log
+2025-08-19 11:21:02 - Glimboca - 🌦   +25°C
+2025-08-19 12:08:26 - Glimboca - 🌦   +25°C

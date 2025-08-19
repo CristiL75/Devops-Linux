@@ -1,0 +1,374 @@
+Date: Tue, 19 Aug 2025 09:04:48 +0000 (UTC)
+Message-ID: <946194527.55.1755594288149@49023d9c77f2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_54_1665611736.1755594288148"
+
+------=_Part_54_1665611736.1755594288148
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>DevOps on Linux Project - Weather VM Project</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>DevOps on Linux Project - Weather VM Project</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-Overview">Overview<=
+/h2>
+<p>This project automates a VM to fetch and display current weather informa=
+tion for a chosen city on startup and at login.</p>
+<h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-=F0=9F=8E=AFProjectGoal">=
+=F0=9F=8E=AF Project Goal</h2>
+<p>Automate your VM so that it fetches the current weather for a chosen cit=
+y on startup and shows it at login.</p>
+<h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-=E2=9C=85Requirements">=E2=
+=9C=85 Requirements</h2>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-EnvironmentConfiguration">E=
+nvironment Configuration</h3>
+<ul>
+<li>
+<p>Store the city name in <code>/etc/default/weather</code> using a variabl=
+e:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: jscript; gutter: false; theme: Django" data-theme=3D"Django">CITY=3DTimis=
+oara
+</pre>
+</div>
+</div></li>
+<li>
+<p>Script must read the <code>CITY</code> environment variable and default =
+to "Timisoara" if not set</p></li>
+</ul>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-WeatherScript">Weather Scri=
+pt</h3>
+<p><strong>Location:</strong> <code>/usr/local/sbin/weather.sh</code></p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>
+<p>Install required packages (<code>curl</code>, <code>jq</code>) if missin=
+g</p></li>
+<li>
+<p>Fetch weather from <code>wttr.in/$CITY</code></p></li>
+<li>
+<p>Generate a clean <code>/etc/motd</code> with:</p>
+<ul>
+<li>
+<p>Project header ("Welcome to your Dev VM")</p></li>
+<li>
+<p>City name</p></li>
+<li>
+<p>Weather info</p></li>
+<li>
+<p>Hostname + current time</p></li>
+</ul></li>
+<li>
+<p>Script must be idempotent (overwrite MOTD, no duplication)</p></li>
+</ul>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-systemdService">systemd Ser=
+vice</h3>
+<p><strong>Location:</strong> <code>/etc/systemd/system/weather.service</co=
+de></p>
+<p><strong>Configuration:</strong></p>
+<ul>
+<li>
+<p>Runs <code>weather.sh</code> at boot</p></li>
+<li>
+<p>Loads environment variables from <code>/etc/default/weather</code></p></=
+li>
+<li>
+<p>Type: <code>oneshot</code>, <code>RemainAfterExit=3Dyes</code></p></li>
+</ul>
+<h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-=F0=9F=94=8DVerification">=
+=F0=9F=94=8D Verification</h2>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-ExpectedOutput">Expected Ou=
+tput</h3>
+<p>On login or with <code>cat /etc/motd</code>, students should see:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: jscript; gutter: false; theme: Django" data-theme=3D"Django">=3D=3D=3D=3D=
+ Welcome to your Dev VM =3D=3D=3D=3D
+City: &lt;city&gt;
+Weather today: &lt;curl output&gt;
+Hostname: &lt;hostname&gt;
+Time: &lt;timestamp&gt;
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+</pre>
+</div>
+</div>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-ServiceStatus">Service Stat=
+us</h3>
+<ul>
+<li>
+<p><code>systemctl status weather.service</code> must show <code>active (ex=
+ited)</code></p></li>
+<li>
+<p>Changing <code>CITY</code> in <code>/etc/default/weather</code> + restar=
+ting the service must update MOTD</p></li>
+<li>
+<p>MOTD =3D MESSAGE OF THE DAY</p></li>
+</ul>
+<h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-=F0=9F=93=81Deliverables">=
+=F0=9F=93=81 Deliverables</h2>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-CodeFiles">Code Files</h3>
+<ol start=3D"1">
+<li>
+<p><code>/usr/local/sbin/weather.sh</code> (executable, readable, idempoten=
+t)</p></li>
+<li>
+<p><code>/etc/systemd/system/weather.service</code> (unit file)</p></li>
+<li>
+<p><code>/etc/default/weather</code> (environment configuration)</p></li>
+</ol>
+<h3 id=3D"DevOpsonLinuxProject-WeatherVMProject-Documentation">Documentatio=
+n</h3>
+<ul>
+<li>
+<p><strong>README.md</strong>: Clear instructions on how to install, enable=
+, and verify</p></li>
+<li>
+<p>Example output of MOTD after running</p></li>
+</ul>
+<h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-=F0=9F=9B=A1=EF=B8=8FGoodPr=
+actices">=F0=9F=9B=A1=EF=B8=8F Good Practices</h2>
+<ul>
+<li>
+<p>Script is safe (uses <code>set -euo pipefail</code>)</p></li>
+<li>
+<p>Commands are logged (simple echo statements OK)</p></li>
+<li>
+<p>MOTD is always clean (no appending duplicates)</p></li>
+</ul>
+<h2 id=3D"DevOpsonLinuxProject-WeatherVMProject-=F0=9F=A7=A9BonusFeatures(O=
+ptionalforExtraPoints)">=F0=9F=A7=A9 Bonus Features (Optional for Extra Poi=
+nts)</h2>
+<ul>
+<li>
+<p>Add uptime or disk usage info into MOTD</p></li>
+<li>
+<p>Log weather fetches into <code>/var/log/weather.log</code></p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_54_1665611736.1755594288148--

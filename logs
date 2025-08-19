@@ -1,0 +1,39 @@
+ec2-user@ip-172-31-21-186 ~]$ journalctl -u weather.service -n 50
+Aug 19 11:15:45 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31406]: [INFO] Încarc variabilele din /etc/default/weather
+Aug 19 11:15:45 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31406]: [INFO] Orașul folosit: Glimboca
+Aug 19 11:15:45 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31406]: [INFO] Obțin vremea de la wttr.in
+Aug 19 11:15:49 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31406]: [INFO] Generez /etc/motd
+Aug 19 11:15:49 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31406]: [INFO] Script weather.sh finalizat cu succes
+Aug 19 11:15:49 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Finished weather.service - Weather MOTD Generator.
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: weather.service: Deactivated successfully.
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Stopped weather.service - Weather MOTD Generator.
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Stopping weather.service - Weather MOTD Generator...
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Starting weather.service - Weather MOTD Generator...
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31460]: [INFO] Pornesc scriptul weather.sh
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31460]: [INFO] Încarc variabilele din /etc/default/weather
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31460]: [INFO] Orașul folosit: Glimboca
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31460]: [INFO] Obțin vremea de la wttr.in
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31460]: [INFO] Generez /etc/motd
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31460]: [INFO] Script weather.sh finalizat cu succes
+Aug 19 11:16:23 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Finished weather.service - Weather MOTD Generator.
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: weather.service: Deactivated successfully.
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Stopped weather.service - Weather MOTD Generator.
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Stopping weather.service - Weather MOTD Generator...
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Starting weather.service - Weather MOTD Generator...
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31537]: [INFO] Pornesc scriptul weather.sh
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31537]: [INFO] Încarc variabilele din /etc/default/weather
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31537]: [INFO] Orașul folosit: Glimboca
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31537]: [INFO] Obțin vremea de la wttr.in
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31537]: [INFO] Generez /etc/motd
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31537]: [INFO] Script weather.sh finalizat cu succes
+Aug 19 11:17:18 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Finished weather.service - Weather MOTD Generator.
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: weather.service: Deactivated successfully.
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Stopped weather.service - Weather MOTD Generator.
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Stopping weather.service - Weather MOTD Generator...
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal systemd[1]: Starting weather.service - Weather MOTD Generator...
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31677]: [INFO] Pornesc scriptul weather.sh
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31677]: [INFO] Încarc variabilele din /etc/default/weather
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31677]: [INFO] Orașul folosit: Glimboca
+Aug 19 11:21:01 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31677]: [INFO] Obțin vremea de la wttr.in
+Aug 19 11:21:02 ip-172-31-21-186.eu-north-1.compute.internal weather.sh[31677]: [INFO] Generez /etc/motd
+lines 1-37

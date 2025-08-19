@@ -1,0 +1,13 @@
+[Unit]
+Description=Weather MOTD Generator
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+EnvironmentFile=/etc/default/weather
+ExecStart=/usr/local/sbin/weather.sh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
